@@ -71,6 +71,7 @@ public class googleMapActivity extends FragmentActivity implements OnMapReadyCal
         LatLng currentLocation = new LatLng(a, b);
         mMap.addMarker(new MarkerOptions().position(currentLocation).title("Current Location"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(currentLocation));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation,10));
     }
 
     //function for getting device  current location
