@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Food Oasis</string>
+
+    <!--Register Screen-->
+    <string name="registerEmailField">E-mail Address</string>
+    <string name="registerPasswordField">Password</string>
+    <string name="confirmPasswordField">Confirm Password</string>
+    <string name="profileButtonText">Set Up Profile</string>
+    <string name="hasAccountButtonText">Already have account? Sign In</string>
+
+
+    <!--Login Screen-->
+    <string name="loginEmailField">E-mail Address</string>
+    <string name="loginPasswordField">Password</string>
+    <string name="loginButtonText">Log In</string>
+    <string name="registerButtonText">Register</string>
+
+    <!--Vendor or User Screen -->
+    <string name="userButtonText">User</string>
+    <string name="vendorButtonText">Vendor</string>
+
+    <!--Profile Screen-->
+    <string name="saveButtonText">Save</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

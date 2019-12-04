@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".AddItems">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:text="Edit Item"
+        android:textColor="@color/colorGreen"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/setItemName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945"/>
+
+
+    <EditText
+        android:id="@+id/setItemName"
+        android:layout_width="241dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:hint="Enter Item Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/setItemPrice"
+        android:layout_width="249dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:hint="Enter Item Price"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/setItemQuantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setItemName"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <EditText
+        android:id="@+id/setItemQuantity"
+        android:layout_width="234dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="Enter Item Quantity"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setItemName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="93dp"
+        android:layout_height="65dp"
+        android:background="@color/colorOrange"
+        android:text="Update"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setItemQuantity" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="181dp"
+        android:layout_height="147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/daoasis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
