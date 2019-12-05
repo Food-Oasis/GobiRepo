@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity"></activity>
+
         <activity android:name=".AboutUs" />
         <activity android:name=".googleMapActivity" />
         <activity android:name=".AddItems" />
@@ -36,6 +36,10 @@
         <activity android:name=".VendorActivity" />
         <activity android:name=".EditItems" />
         <activity android:name=".UserOrVendor">
+
+        </activity>
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     //sets up the toolbar options
-    @Override
+   /* @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             //goes back to the main activity when selected
@@ -80,7 +80,7 @@ public class LoginActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
 
         }
-    }
+    }*/
 
     private void loginUser() {
 

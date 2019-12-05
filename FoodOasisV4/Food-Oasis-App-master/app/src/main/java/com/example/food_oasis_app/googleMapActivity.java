@@ -62,7 +62,7 @@ public class googleMapActivity extends FragmentActivity implements OnMapReadyCal
     }
 
     //sets up the toolbar options
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             //goes back to the main activity when selected
@@ -81,7 +81,7 @@ public class googleMapActivity extends FragmentActivity implements OnMapReadyCal
                 return super.onOptionsItemSelected(item);
 
         }
-    }
+    }*/
 
     // function to populate map with current locations and other locations.
     //  still needs code for populating the data stored in the database[

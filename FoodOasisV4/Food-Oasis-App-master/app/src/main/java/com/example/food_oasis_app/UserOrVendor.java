@@ -36,7 +36,7 @@ public class UserOrVendor extends AppCompatActivity {
     }
 
     //creates dropdown menu and options in the toolbar
-    @Override
+   /* @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
 
@@ -58,5 +58,5 @@ public class UserOrVendor extends AppCompatActivity {
 
         }
 
-    }
+    }*/
 }
